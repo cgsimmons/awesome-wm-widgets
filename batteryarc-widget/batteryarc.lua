@@ -114,7 +114,7 @@ local function worker(args)
         end
     end
 
-    watch("acpi", 10, update_widget, widget)
+    watch("acpi", 120, update_widget, widget)
 
     -- Popup with battery info
     local notification

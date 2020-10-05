@@ -80,7 +80,7 @@ local function worker(args)
         end)
     end)
 
-    watch(get_volume_cmd, 1, update_graphic, volumearc)
+    watch(get_volume_cmd, 600, update_graphic, volumearc)
 
     return volumearc
 end
